@@ -1,0 +1,4 @@
+div:first-child span{
+    font-weight: bold;
+    color: red;
+}
