@@ -1,0 +1,9 @@
+p {
+    font-weight: bold;
+    background-color: coral;
+    margin: 5px;
+    border: 2px solid blue;
+  }
+  body{
+    border: solid black;
+  }
