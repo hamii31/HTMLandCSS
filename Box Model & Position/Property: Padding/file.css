@@ -1,0 +1,15 @@
+body p{
+    padding-top:30px;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    margin: 5px;
+  }
+  p {
+    font-weight: bold;
+    background-color: coral;
+  }
+  body{
+    border: solid black;
+  }
+  
