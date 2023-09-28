@@ -1,0 +1,10 @@
+p {
+    font-weight: bold;
+    background-color: coral;
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+  }
+  body{
+    border: solid black;
+  }
