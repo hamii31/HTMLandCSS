@@ -1,0 +1,92 @@
+body{
+  background-color: rgb(238,238,238);
+  padding: 100px;
+  padding-top: 40px;
+  text-align: justify;
+}
+header p{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Helvetica, monospace;
+  text-transform: uppercase;
+}
+nav ul{
+  text-align: right;
+  margin-top: -80px;
+  padding-bottom: 30px;
+  word-spacing: 10px;
+  margin-right: 20px;
+}
+nav ul li{
+  display:inline-block;
+}
+nav ul li a{
+  color: rgb(0, 102, 0);
+  text-decoration: none;
+}
+#one{
+  display: block;
+  height: auto;
+  float: right;
+  width: 200px;
+  background-color: #fff;
+  border: solid 0.4em #000;
+  box-shadow: 0 5px 15px rgb(0, 0, 0.25);
+  padding: 1rem;
+  margin: 2rem;
+  margin-top: 0;
+}
+#two{
+  display: block;
+  height: auto;
+  float: left;
+  width: 150px;
+  background-color: #fff;
+  border: solid 0.4em #000;
+  box-shadow: 0 5px 15px rgb(0, 0, 0.25);
+  padding: 1rem;
+  margin: 0.5rem;
+  margin-left: -2px;
+  margin-top: 0;
+  margin-right: 30px;
+}
+article section{
+  width: 70%;
+}
+aside{
+  left: 70%;
+  bottom: 32%;
+  float:right;
+  position: absolute;
+}
+aside ul li a{
+  color: rgb(0, 102, 0);
+  text-decoration: none;
+}
+h1,h2,h3{
+  font-size: 1.5em;
+  font-family: Georgia, serif;
+}
+blockquote{
+  text-align: auto;
+  float:right;
+  width:40%;
+  border-left: 1px solid gray;
+  height: 100%;
+  padding-left: 80px;
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+blockquote p{
+  margin-top: 10px;
+  margin-left: -10px;
+  color: gray;
+}
+blockquote cite{
+  float:right;
+  color:gray
+}
+#left{
+  width: 40%;
+  text-align:left;
+}
