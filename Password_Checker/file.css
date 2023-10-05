@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@100&family=Righteous&family=Roboto:wght@100&family=Young+Serif&display=swap');
+body{
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+    text-align: center;
+    background-color: #6406f9;
+}
+p{
+    color:white;
+}
+h1{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top:200px;
+    color: #9BF906;
+}
+form input{
+    padding:10px;
+    width: 250px;
+}
+#btn{
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: #9BF906;
+}
