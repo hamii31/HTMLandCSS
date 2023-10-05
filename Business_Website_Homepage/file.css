@@ -7,20 +7,21 @@ body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Young Serif', serif;
 
-    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd3e1m60ptf1oym.cloudfront.net%2Fd7de27b3-c9fe-4f1b-a9f3-ca88750115f5%2FM28265-FR-01_uxga.jpg&f=1&nofb=1&ipt=c93589a51613db9eb361380b52916149e4f1965617c11eb57f43b55e58bcbe7a&ipo=images") no-repeat, center center;
-    background-size: fill;
-    background-position-x: center;
+    background: url(https://images.unsplash.com/photo-1545569341-9eb8b30979d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80) no-repeat, center center;
+    background-size: fit-content;
+    background-position-x: 90%;
+    background-position-y:15%;
 }   
 h1{
     position: absolute;
     left:50px;
     top:50px;
-    font-size: 50px;
+    font-size: 60px;
     text-shadow: 1px 1px 1px lightblue;
 }
-@media screen and (max-width:606.5px){
+@media screen and (max-width:717px){
     .fade-in-2{
-       padding-top: 50px;
+       padding-top: 80px;
     }
 }
 #content{
@@ -30,7 +31,7 @@ h1{
 }
 nav{
     overflow: hidden;
-    border:solid black;
+
     color:black;
 }
 nav ul{
@@ -64,6 +65,7 @@ li a{
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 50px;
+    margin-bottom: -20px;
 
     box-shadow: 1px 1px 1px lightblue;
 }
