@@ -1,0 +1,11 @@
+.flex-container{
+    padding: 20px;
+    display: flex;
+    background-color: rgb(41, 100, 249);
+    gap: 1em;
+}
+div div{
+    font-size: 30px;
+    padding: 20px;
+    background-color: white;
+}
