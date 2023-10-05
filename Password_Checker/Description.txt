@@ -1,0 +1,2 @@
+The word "password" changes color depending on the strength of the password entered.
+The strength is determined by length and presence of special characters and numbers.
