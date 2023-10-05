@@ -1,0 +1,20 @@
+.flex-container{
+    padding: 20px;
+    display: flex;
+    gap: 1em;
+    background-color: rgb(41, 100, 249);
+}
+div div{
+    font-size: 40px;
+    padding: 30px;
+    background-color: white;
+}
+#one{
+    flex-grow: 1;
+}
+#two{
+    flex-grow: 2;
+}
+#three{
+    flex-grow:3;
+}
