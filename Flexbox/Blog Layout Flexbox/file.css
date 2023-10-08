@@ -22,8 +22,8 @@ img{
 #img-two{
   float:left;
   width: 10em;
-  margin-left: 5px;
-  margin-right: 10px;
+  margin-left: 2px;
+  margin-right: 15px;
 }
 blockquote{
   text-align: auto;
@@ -70,5 +70,5 @@ aside{
 }
 iframe{
   margin-left: 20px;
-  margin-right: -10px;
+  margin-right: -20px;
 }
