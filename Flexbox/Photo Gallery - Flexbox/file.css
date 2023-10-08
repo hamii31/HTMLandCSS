@@ -1,0 +1,32 @@
+body,ul,li{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  justify-content: space-between;
+}
+body{
+  padding:5em;
+  background-color: #eee;
+}
+.gallery{
+  width: 100%;
+  margin: 0 auto;
+}
+li{
+  width: 18em;
+  background-color: #fff;
+  border: solid 0.4em #000;
+  box-shadow: 15px 15px 35px black;
+  padding: 1rem;
+  vertical-align: middle;
+  margin: 0.5rem;
+  margin-bottom: 30px;
+}
+img{
+  min-width: 50%;
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
