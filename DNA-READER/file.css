@@ -24,12 +24,23 @@ form input{
     border-radius: 5px;
 }
 
-@media screen and (width < 650px){
+@media screen and (max-width: 680px){
     form input{
         padding:10px;
         width: 250px;
         border-radius: 5px;
     }
+}
+@media screen and (max-width: 400px){
+  form input{
+        padding:10px;
+        width: 100px;
+        border-radius: 5px;
+    }
+  body{
+    padding-right: 10px;
+    padding-left: 10px;
+}
 }
 #btn{
     margin-top: 15px;
