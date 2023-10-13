@@ -1,0 +1,59 @@
+body{
+    background-color: #2ba9d4;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.header-level-one{
+    margin-top: 50px;
+    font-size: 50px;
+    color: #D4562B;
+    text-shadow: 1px 1px black;
+    text-transform: uppercase;
+}
+form{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
+}
+form input{
+    padding:10px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+@media screen and (width < 650px){
+    form input{
+        padding:10px;
+        width: 250px;
+        border-radius: 5px;
+    }
+}
+#btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #A9D42B;
+    padding: 10px;
+    border-radius: 6px;
+    border-color: #A9D42B;
+    width: 10rem;
+    font-size: 15px;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: #95b927;
+}
+.facts{
+    display: flex;
+    flex-wrap: wrap;
+}
+.amino-acid-weight, .amino-acid-production, .amino-acid-dense-foods-and-supplements{
+    margin-top: 100;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
