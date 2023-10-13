@@ -1,0 +1,8 @@
+@media screen{
+    body{
+        font-size: 10px;
+    }
+}
+article span{
+    color: red;
+}
