@@ -1,0 +1,11 @@
+/* Make responsive */
+
+@media  screen and (hover:hover) {
+    .icons ul li:hover{
+        cursor: pointer;
+    }
+    
+    .get-started input:hover{
+        cursor: pointer;
+    }
+}
