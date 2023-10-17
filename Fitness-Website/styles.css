@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=PT+Sans&family=Raleway:wght@100&family=Recursive:wght@300&family=Righteous&family=Roboto:wght@100&family=Share+Tech&family=Young+Serif&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+}
+.contacts{
+    background-color: red;
+    color:white;
+    display: flex;
+    margin-top: -5px;
+
+    .number ul{
+        display: flex;
+        li{
+            margin:0 10px 0 0; 
+            vertical-align:top
+        }
+    }
+
+    .address{
+        position: absolute;
+        right: 650px;
+    }
+    .address ul{
+        display: flex;
+        li{
+            margin:0 10px 0 0; 
+            vertical-align:top
+        }
+    }
+
+    .icons{
+        position:absolute;
+        right: 50px;
+    }
+    .icons ul{
+        display: flex;
+
+        li{
+            margin:0 10px 0 0; 
+            vertical-align:top
+        }
+    }
+}
+
+.navbar img{
+    position: absolute;
+    clip: rect(260px,1600px,750px,0px);
+    max-width: 100%;
+    top: -215px;
+}
+
+.nav{
+    positioN: absolute;
+    right: 30px;
+
+    ul{
+        display: flex;
+
+        li{
+            margin:0 58px 0 0; 
+            vertical-align:top;
+
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+
+.get-started{
+    
+    h1{
+        position: absolute;
+        color: white;
+        top: 150px;
+        right:510px;
+        font-size: 53px;
+        letter-spacing: 6px;
+    }
+
+    p{
+        position: absolute;
+        color: white;
+        top: 280px;
+        right:547px;
+        width: 450px;
+        text-align: center;
+    }
+
+    input{
+        position: absolute;
+        text-align: center;
+        padding: 5px 20px 6px 20px;
+        background-color: red;
+        color: white;
+        border: 1px solid red;
+        border-radius: 5px;
+        top: 380px;
+        right:710px;
+    }
+}
+
+.welcome{
+    margin-top:510px;
+    padding-bottom: 20px;
+
+    img{
+        width:55px;
+    }
+
+    .container{
+        margin: 20px 100px 20px 50px;
+    }
+    .container ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container div{
+        text-align: center;
+        width: 300px;
+    }
+
+    h1{
+        font-weight: bold;
+        font-size: 30px;
+        display: inline-block;
+        padding-bottom: 30px;
+        position: relative;
+        left: 705px;
+    }
+    h1:before{
+        content: "";
+        position: absolute;
+        width: 50%;
+        height: 1px;
+        bottom: 0;
+        left: 25%;
+        border-bottom: 3px solid red;
+    }
+}
+.coaches{
+    background-color: whitesmoke;
+    margin-top:20px;
+    padding-bottom: 20px;
+
+    .container{
+        margin: 20px 100px 20px 50px;
+    }
+    .container ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container div{
+        text-align: center;
+        width: 300px;
+    }
+    .certification{
+        color:red;
+    }
+
+    h1{
+        font-weight: bold;
+        font-size: 30px;
+        display: inline-block;
+        padding-bottom: 30px;
+        position: relative;
+        left: 705px;
+    }
+    h1:before{
+        content: "";
+        position: absolute;
+        width: 50%;
+        height: 1px;
+        bottom: 0;
+        left: 25%;
+        border-bottom: 3px solid red;
+    }
+}
+
+footer{
+    background-color: red;
+    margin-top: -20px;
+    margin-bottom: -20px;
+
+    p{
+        text-align: center;
+        padding: 5px;
+    }
+}
