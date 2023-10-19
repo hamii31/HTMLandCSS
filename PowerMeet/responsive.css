@@ -1,0 +1,20 @@
+@media screen and (max-width: 500px){
+    div img{
+        width: 22rem; 
+    }
+    .form-container{
+        width: 25rem;
+    }
+}
+::selection {
+    background: red;
+  }
+
+  @media screen and (hover:hover){
+    input[type="submit"]:hover{
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+  }
