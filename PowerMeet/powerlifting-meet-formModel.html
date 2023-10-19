@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            PowerMeet
+        </title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="responsive.css">
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <h1 class="main-heading"><span>Power</span>lifting <span>Meet</span> Form</h1>
+        <div>
+         <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-btpbyHDw-Ms%2FVt3PTOMoL4I%2FAAAAAAAABfo%2FdgGE0f6Q19M%2Fs1600%2Fpowerlifting.jpg&f=1&nofb=1&ipt=d80f03e03d682c7f0f664ccc518ffc22952b26b3050b2cab946405c9a67aa39b&ipo=images">
+        </div>
+        <div class="form-container">
+        <form>
+            <div class="fieldset-container">
+                <fieldset class="personal">
+                    <h2>Personal Information</h2>
+                    <div>
+                        <label>First Name:</label>
+                        <br>
+                        <input type="text" id="fname" placeholder="First Name">
+                    </div>
+                    <div>
+                        <label>Last Name:</label>
+                        <br>
+                        <input type="text" id="lname" placeholder="Last Name">
+                    </div>
+                    <div>
+                        <label>E-Mail:</label>
+                        <br>
+                        <input type="text" id="email" placeholder="email@email.com">
+                    </div>
+                    <div>
+                        <label>Phone:</label>
+                        <br>
+                        <input type="tel" id="phone" placeholder="088 888 8888" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    </div>
+                    <div>
+                        <label>Age:</label>
+                        <br>
+                        <input type="number" id="age" placeholder="0">
+                    </div>
+                    <div>
+                        <label>Weight:</label>
+                        <br>
+                        <input type="number" id="weight" placeholder="0">
+                    </div>
+                    <div>
+                        <label>Sex:</label>
+                        <br>
+                        <select class="sex" id="sex">
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset class="lifting">
+                    <h2>Lifting Information</h2>
+                    <div class="one-rep-maxes">
+                     <div>
+                        <label>Squat 1RM: (in <span>kg</span>)</label>
+                        <br>
+                        <input type="number" id="squat" placeholder="0">
+                     </div>
+                     <div>
+                        <label>Bench 1RM: (in <span>kg</span>)</label>
+                        <br>
+                        <input type="number" id="bench" placeholder="0">
+                     </div>
+                     <div>
+                        <label>Deadlift 1RM: (in <span>kg</span>)</label>
+                        <br>
+                        <input type="number" id="deadlift" placeholder="0">
+                     </div>
+                    </div>
+                    <div>
+                        <label>Experience in lifting weights:</label>
+                        <br>
+                        <select class="experience">
+                            <option>0-2 Years</option>
+                            <option>2-5 Years</option>
+                            <option>5-10 Years</option>
+                            <option>10+ Years</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Are you participating Equipped or Raw</label>
+                        <br>
+                        <select class="raw-equipped">
+                            <option>Raw</option>
+                            <option>Equipped</option>
+                        </select>
+                    </div>
+                    <div class="prior-meets">
+                        <label>Have you participated in a powerlifting meet before?</label>
+                        <div>
+                            <input type="radio" id="opt1" name="option" value="Yes">
+                            <label for="opt1">Yes</label><br>
+                            <input type="radio" id="opt2" name="option" value="No">
+                            <label for="opt2">No</label><br>  
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+        <input type="submit" value="Submit" id="btn" onclick="MyFunc()">
+        <p id="inprint"></p>
+       </div>
+    </body>
+</html>
