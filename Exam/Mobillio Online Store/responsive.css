@@ -1,0 +1,47 @@
+@media screen and (width <= 600px){
+    .home-navbar{
+        height: 30px;
+    }
+    .home-navbar1{
+        display: none;
+    }
+    .category-card-image{
+        width: 180px;
+    }
+    .home-full-width-banner{
+        display: flex;
+        flex-wrap: wrap;
+
+        .home-left4{
+            padding-bottom: 40px;
+        }
+        .home-text29{
+            margin-top: 15px;
+        }
+        .home-text30{
+            width: 500px;
+            margin-left: 15px;
+            margin-right: 15px;
+            font-size: 15px;
+        }
+    }
+    .home-image6{
+        width: 100%;
+    }
+    .home-footer{
+        padding-bottom: 150px;
+    }
+    .home-footer div{
+       display: flex;
+       flex-wrap: wrap;
+    }
+
+    .home-container09{
+        position: relative;
+        top: 600px;
+    }
+    .home-links-container{
+        position: relative;
+        right: 200px;
+    }
+}
