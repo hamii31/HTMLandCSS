@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@300&family=PT+Sans&family=PT+Serif&family=Raleway:wght@100&family=Recursive:wght@300&family=Righteous&family=Roboto:wght@100&family=Share+Tech&family=Young+Serif&display=swap');
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+.about{
+    .background{
+        position: absolute;
+        clip: rect(40px,1700px,750px,0px);
+        width: 100%;
+        left: 0px;
+        top: -40px;
+    }
+    .icon{
+        position:absolute;
+        width: 80px;
+        left: 50px;
+        top: 15px;
+    }
+    nav{
+        position: absolute;
+        right: 50px;
+        color: white;
+    }
+    nav ul{
+        display: flex;
+        li{
+            margin:15px 25px 0 0; 
+            vertical-align:top
+        }
+        a:hover{
+            cursor: pointer;
+        }
+    }
+    h1{
+        position: absolute;
+        color: white;
+        top: 90px;
+        left: 180px;
+        font-size: 50px;
+        width: 610px;
+        
+    }
+    p{
+        position: absolute;
+        color: white;
+        top: 330px;
+        left: 180px;
+        width: 615px;
+        font-size: 18px;
+        line-height: 1.8;
+    }
+}
+.business{
+    position:absolute;
+    top: 800px;
+    border-bottom: 1px solid rgb(201, 113, 45);
+    padding-bottom: 70px;
+
+    .container{
+        margin: 0px 0px 0px 150px;
+    }
+
+    .container ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+        div{
+            width: 590px;
+            margin-right: 50px;
+
+            h1{
+                font-size: 50px;
+            }
+            p{
+                margin-top: -23px;
+                line-height: 1.5;
+                color: rgb(123, 74, 38);
+            }
+            input{
+                background-color: inherit;
+                color: rgb(201, 113, 45);
+                border: 2px solid rgb(201, 113, 45);;
+                padding: 10px; 
+                margin-top: 10px;
+            }
+            input:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
+.sponsors{
+    position: absolute;
+    top: 1200px;
+
+    div{
+        width: 1200px;
+        position: absolute;
+        left: 150px;
+        text-align: center;
+
+        h1{
+            color: rgb(201, 113, 45);
+            font-size: 50px;
+        }
+        p{
+            margin-top: -20px;
+            color: rgb(123, 74, 38);
+        }
+    }
+
+    .container{
+        position: absolute;
+        top: 200px;
+        left: 525px;
+        width: 500px;
+        margin-top: 20px;
+
+    }
+    .container ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 80px;
+
+        img{
+            width: 150px;
+            border-radius: 50%;
+
+            background-color: rgb(189, 183, 175);
+        }
+    }
+}
+
+.partners{
+    position:absolute;
+    top: 1650px;
+
+    div{
+        width: 1200px;
+        position: absolute;
+        left: 150px;
+        text-align: center;
+
+        h1{
+            color: rgb(201, 113, 45);
+            font-size: 50px;
+        }
+        p{
+            margin-top: -20px;
+            color: rgb(123, 74, 38);
+        }
+    }
+}
+.more-info{
+    position:absolute;
+    top: 1900px;
+    width: 1500px;
+    background-color: rgb(9, 8, 11);
+    color: white;
+    margin-left: -10px;
+    padding: 19px;
+    padding-bottom: 25px;
+
+    .container ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        div{
+            margin-right: -46.8px;
+            width: 400px;
+
+            h1{
+                font-size: 20px;
+            }
+        }
+        div:last-child{
+            margin-right:0px;
+        }
+        p{
+            line-height: 2;
+            text-transform: uppercase;
+            color:gray;
+            width: 190px;
+            text-align: left;
+        }
+
+        ul{
+            display: inline-block;
+            margin-left: -39px;
+            gap: 0px;
+            line-height: 2;
+
+            text-transform: uppercase;
+            color:gray;
+            font-size: 15px;
+        }
+
+        li:hover{
+            cursor: pointer;
+        }
+    }
+}
+footer{
+    position:absolute;
+    top: 2300px;
+    color: gray;
+    border-top: 1px solid gray;
+    background-color: rgb(9, 8, 11);
+    width: 100%;
+    margin-left: -8px;
+
+    p{
+        margin-left: 55px;
+    }
+}
