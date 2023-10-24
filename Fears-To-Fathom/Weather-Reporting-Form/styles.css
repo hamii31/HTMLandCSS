@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@300&family=PT+Sans&family=PT+Serif&family=Pixelify+Sans&family=Raleway:wght@100&family=Recursive:wght@300&family=Righteous&family=Roboto:wght@100&family=Share+Tech&family=Young+Serif&display=swap');
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+body{
+    font-family: 'Pixelify Sans', sans-serif;
+
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+img{
+    position:absolute;
+    width: 50px;
+    left: 10px;
+    top: 15px;
+    opacity: 0.5;
+}
+input{
+    text-align: right;
+    border: 1px solid black;
+    border-top: 3px solid gray;
+    width: 210px;
+}
+
+.dateAndTime{
+    display: flex;
+    margin-left: -40px;
+    p{
+        text-align: center;
+        width: 100px;
+        border: 1px solid black;
+        border-top: 3px solid gray;
+        background-color: rgb(201, 212, 217);
+    }
+}
+.dateAndTime ul li{
+    display: inline-block;
+}
+
+div{
+    margin-top: 20px;
+}
+
+label{
+    margin-right: 10px;
+}
+
+select{
+    cursor: pointer;
+    border: 1px solid black;
+    width: 150px;
+    padding: 5px;
+    background-color: white;
+}
+
+#btn{
+    position: absolute;
+    left: 150px;
+    margin-top: 20px;
+    width: 80px;
+    text-align: center;
+    background-color: rgb(201, 212, 217);
+
+    box-shadow: 1px 1px 1px black;
+    border-top: inherit;
+    border-left: inherit;
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(176, 187, 192);
+}
+
