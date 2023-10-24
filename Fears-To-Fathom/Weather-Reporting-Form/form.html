@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather-Report</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <h1>Ironbark Forestry Service</h1>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fefi.int%2Fsites%2Fdefault%2Ffiles%2Fimages%2FLogos%2Fefi%2FEFI-logo_black.png&f=1&nofb=1&ipt=09d6ef00ab2c65d241dfa3bf5317b0782ccd7c7f9f07fa5b170b1352ac9557d2&ipo=images">
+        <form>
+           <div class="dateAndTime">
+                <div>
+                    <ul type="none">
+                        <li><label>Date </label></li>
+                        <li><p id="date"></p></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul type="none">
+                        <li><label>Time </label></li>
+                        <li><p id="time"></p></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <label>Temperature</label><br>
+                <input type="text" id="temperature"> °C
+            </div>
+            <div>
+                <label>Wind Speed</label><br>
+                <input type="text" id="windSpeed"> m/s
+            </div>
+            <div>
+                <label>Weather Condition</label><br>
+                <select id="weather">
+                    <option value="cloud">Cloud</option>
+                    <option value="mist">Mist</option>
+                    <option value="clear">Clear</option>
+                    <option value="wind">Wind</option>
+                    <option value="rain">Rain</option>
+                    <option value="heat-waves">Heat Waves</option>
+                    <option value="blizzard">Blizzard</option>
+                    <option value="thunderstorm">Thunderstorm</option>
+                    <option value="dust-storm">Dust Storm</option>
+                </select>
+            </div>
+            <div>
+                <label>Number of hikers assisted</label> <br>
+                <input type="text" id="hikers-helped" placeholder="Number of hikers assisted"> 
+            </div>
+            <div>
+                <label>Reported by </label>
+                <input type="text" id="name">
+            </div>
+        </form>
+        <input type="submit" id="btn" value="Submit">
+    </body>
+</html>
